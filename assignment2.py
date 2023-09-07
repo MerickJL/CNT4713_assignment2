@@ -10,7 +10,7 @@ class Assignment2:
 
     def listAnniversaries(self):
         #Current Year Assumption
-        current_year = 2023
+        current_year = 2022
         anniversaries = [i for i in range(10, current_year - self.year + 1, 10)]
         return anniversaries
 
