@@ -1,6 +1,6 @@
 import socket
 
-class assignment2:
+class Assignment2:
     def __init__(self, year):
         self.year = year
 
@@ -40,28 +40,28 @@ class assignment2:
 
 # Easy Change Testing Varaiables:
 # Task 2 (Age)
-a = assignment2(2000)
+a = Assignment2(2000)
 a.tellAge(2022)
 
 # Task 3 (List)
-a = assignment2(2000)
+a = Assignment2(2000)
 ret = a.listAnniversaries()
 print(ret)
 
 # Task 4 (String Manipulation)
-a = assignment2(2000)
+a = Assignment2(2000)
 ret = a.modifyYear(5)
 print(ret)
 
 # Task 5 (Loop and Conditional statements)
-ret = assignment2.checkGoodString("f1obar0more")
+ret = Assignment2.checkGoodString("f1obar0more")
 print(ret)
 
-ret = assignment2.checkGoodString("foobar0more")
+ret = Assignment2.checkGoodString("foobar0more")
 print(ret)
 
 # Task 6 (Socket)
-retval = assignment2.connectTcp("www.google.com", 80)
+retval = Assignment2.connectTcp("www.google.com", 80)
 if retval:
     print("Connection established correctly")
 else:
